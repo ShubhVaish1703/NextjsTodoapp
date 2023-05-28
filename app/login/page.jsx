@@ -6,7 +6,6 @@ import { useContext } from 'react';
 import { Context } from '@/components/Clients';
 import { redirect } from 'next/navigation'
 import { toast } from 'react-hot-toast';
-import { useEffect } from 'react';
 
 const page = () => {
     const [email, setEmail] = useState('');
@@ -55,9 +54,9 @@ const page = () => {
     )
 }
 
-export const metadata = {
-    title: 'Login',
-    description: 'This is the Login page of Todo App Project made with next.js',
-}
+// export const metadata = {
+//     title: 'Login',
+//     description: 'This is the Login page of Todo App Project made with next.js',
+// }
 
 export default page

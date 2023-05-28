@@ -53,9 +53,9 @@ const page = () => {
     )
 }
 
-export const metadata = {
-    title: 'Register',
-    description: 'This is the Register page of Todo App Project made with next.js',
-}
+// export const metadata = {
+//     title: 'Register',
+//     description: 'This is the Register page of Todo App Project made with next.js',
+// }
 
 export default page
